@@ -1,0 +1,37 @@
+#Body {
+  font-family: Papyrus;
+  text-align: center;
+  background-color: #2874f0;
+  position: relative;
+  margin: 10% auto;
+  width: 800px;
+  border: 2px dashed;
+  display: block;
+  color: white;
+}
+.listOfEmoji {
+  margin-top: 10px;
+  list-style: none;
+}
+.searchSection {
+  text-align: center;
+  word-wrap: break-word;
+}
+label {
+  display: block;
+}
+.emojiName:hover {
+  background-color: lightskyblue;
+}
+.emoji {
+  margin-top: 25px;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  gap: 10px;
+  padding: 0;
+}
